@@ -7,7 +7,7 @@ app = FastAPI(
     version="1.0.0"
 )
 
-# Ruta raíz - Endpoint de bienvenidcd a
+# Ruta raíz - Endpoint de bienvenidcd a dscds
 @app.get("/")
 async def root():
     return {
